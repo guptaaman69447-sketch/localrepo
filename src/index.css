@@ -1,0 +1,42 @@
+.parent{
+  padding: 5px;
+  margin: 5px;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  border: 2px solid black;
+  height: 50vh;
+  width: 16vw;
+  border-radius: 14px;
+  padding: 5px;
+  margin-left: 5px;
+  
+}
+.card .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top img{
+  height: 60px;
+  width: 60px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  
+}
+ .h4{
+  display: flex;
+  gap: 5px;
+}
+h4{
+  border: 2px solid beige;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b1b1b1;
+}
